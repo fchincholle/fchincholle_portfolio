@@ -26,9 +26,9 @@ const PdfViewer: React.FC<PdfViewerProps> = ({ file }) => {
       style={{
         textAlign: 'center',
         marginTop: '2rem',
-        maxHeight: '60vh', // Limite à la moitié de la hauteur de l'écran
+        maxHeight: '65vh',
         overflowY: 'auto', // Ajoute un scroll si le contenu dépasse
-        padding: '10px', // Optionnel : pour un peu d'espace interne
+        padding: '10px',
       }}
     >
       {error ? (
@@ -46,8 +46,10 @@ const PdfViewer: React.FC<PdfViewerProps> = ({ file }) => {
               <Page
                 key={index + 1}
                 pageNumber={index + 1}
-                scale={1.3} // Réduit la taille des pages (optionnel)
-                width={700} // Limite la largeur des pages (ajuste selon tes besoins)
+                scale={1.2} // Réduit la taille des pages
+                width={600} // Limite la largeur des pages
+                renderAnnotationLayer={false} // Désactive la couche d'annotations
+                renderTextLayer={false} // Désactive la couche de texte
               />
             ))
           )}
