@@ -22,7 +22,16 @@ const PdfViewer: React.FC<PdfViewerProps> = ({ file }) => {
   };
 
   return (
-    <div style={{ textAlign: 'center', marginTop: '2rem' }}>
+    <div
+      style={{
+        textAlign: 'center',
+        marginTop: '2rem',
+        maxHeight: '50vh', // Limite à la moitié de la hauteur de l'écran
+        overflowY: 'auto', // Ajoute un scroll si le contenu dépasse
+        border: '1px solid #ccc', // Optionnel : pour visualiser les limites
+        padding: '10px', // Optionnel : pour un peu d'espace interne
+      }}
+    >
       {error ? (
         <p style={{ color: 'red' }}>{error}</p>
       ) : (
@@ -35,7 +44,12 @@ const PdfViewer: React.FC<PdfViewerProps> = ({ file }) => {
             <p>Chargement du PDF...</p>
           ) : (
             Array.from(new Array(numPages), (_, index) => (
-              <Page key={index + 1} pageNumber={index + 1} />
+              <Page
+                key={index + 1}
+                pageNumber={index + 1}
+                scale={0.8} // Réduit la taille des pages (optionnel)
+                width={600} // Limite la largeur des pages (ajuste selon tes besoins)
+              />
             ))
           )}
         </Document>
