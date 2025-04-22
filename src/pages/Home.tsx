@@ -220,11 +220,11 @@ const Home: React.FC = () => {
                         Filiale du CNES et de la Compagnie Nationale à Portefeuille, CLS déploie des services satellitaires innovants pour comprendre, protéger notre planète et gérer durablement ses ressources.
                         Basée à Toulouse, elle opère dans plus de 30 pays et emploie environ 1 000 collaborateurs.
                         Ses domaines d'expertise couvrent la surveillance environnementale, la gestion durable des pêches, la sécurité maritime, la mobilité et les infrastructures énergétiques.
-                        CLS est également l'opérateur exclusif du système Argos, utilisé mondialement pour le suivi d'espèces, de flottes et de données environnementales.
-                        <a href="https://www.cls.fr" target="_blank" rel="noopener noreferrer">
-                        <img src="https://www.cls.fr/wp-content/uploads/CLS-Logo.png" alt="Logo CLS" style={{ width: '120px', marginTop: '10px' }} />
-                        </a>
+                        CLS est également l'opérateur exclusif du système Argos, utilisé mondialement pour le suivi d'espèces, de flottes et de données environnementales.*
                     </p>
+                    <a href="https://www.cls.fr" target="_blank" rel="noopener noreferrer">
+                        <img src="https://www.cls.fr/wp-content/uploads/CLS-Logo.png" alt="Logo CLS" style={{ width: '120px', marginTop: '10px' }} />
+                    </a>
                 </section>
                 <section id="projects" className="section experience">
                     <h2>Projects</h2>
