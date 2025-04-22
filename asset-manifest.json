@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/fchincholle_BTS/static/css/main.7cdb0c0a.css",
-    "main.js": "/fchincholle_BTS/static/js/main.ff3afad8.js",
+    "main.js": "/fchincholle_BTS/static/js/main.ea4a7ef9.js",
     "index.html": "/fchincholle_BTS/index.html",
     "main.7cdb0c0a.css.map": "/fchincholle_BTS/static/css/main.7cdb0c0a.css.map",
-    "main.ff3afad8.js.map": "/fchincholle_BTS/static/js/main.ff3afad8.js.map"
+    "main.ea4a7ef9.js.map": "/fchincholle_BTS/static/js/main.ea4a7ef9.js.map"
   },
   "entrypoints": [
     "static/css/main.7cdb0c0a.css",
-    "static/js/main.ff3afad8.js"
+    "static/js/main.ea4a7ef9.js"
   ]
 }
