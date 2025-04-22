@@ -4,6 +4,12 @@ import GitHubIcon from "@mui/icons-material/GitHub";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
 import PdfViewer from '../components/PdfViewer';
+import { pdfjs } from 'react-pdf';
+
+pdfjs.GlobalWorkerOptions.workerSrc = new URL(
+    'pdfjs-dist/build/pdf.worker.min.mjs',
+    import.meta.url,
+  ).toString();
 
 const sectionsData = [
     { id: "about", name: "A propos de moi" },
@@ -207,7 +213,7 @@ const Home: React.FC = () => {
                 <section id="cv" className="section about">
                     <h2>Mon CV</h2>
                     <div>
-                        <PdfViewer file="/Franck_Chincholle_CV.pdf" />
+                        <PdfViewer file="/CV.pdf" />
                     </div>
                 </section>
 
