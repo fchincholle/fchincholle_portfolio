@@ -211,7 +211,7 @@ const Home: React.FC = () => {
                 <section id="cv" className="section about">
                     <h2>Mon CV</h2>
                     <div>
-                        <PdfViewer file="/CV.pdf" />
+                        <PdfViewer file={`${process.env.PUBLIC_URL}/CV.pdf`} />
                     </div>
                 </section>
 
