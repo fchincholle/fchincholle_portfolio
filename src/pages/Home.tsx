@@ -215,7 +215,7 @@ const Home: React.FC = () => {
                     </div>
                 </section>
 
-                <section id="about" className="section about">
+                <section id="entreprise" className="section about">
                     <h2>Entreprise</h2>
                     <h3>Mission Micro</h3>
                     <p>
