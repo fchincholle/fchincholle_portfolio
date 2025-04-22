@@ -5,7 +5,7 @@ import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
 
 const sectionsData = [
-    { id: "about", name: "About Me" },
+    { id: "about", name: "A propos de moi" },
     { id: "experience", name: "Experience" },
     { id: "projects", name: "Projects" },
     { id: "projects II", name: "Projects II" },
@@ -125,9 +125,9 @@ const Home: React.FC = () => {
 
             <aside className="left-content">
                 <div className="intro-section">
-                    <h1 className="name">Panic Aleksa</h1>
-                    <h2 className="tagline">Full-Stack Developer</h2>
-                    <p className="bio">Crafting digital experiences, when code meets creativity.</p>
+                    <h1 className="name">Chincholle Franck</h1>
+                    <h2 className="tagline">BTS SIO</h2>
+                    <p className="bio">Alternance technicien support réseaux et informatique</p>
                 </div>
                 <nav className="side-nav">
                     <ul>
@@ -146,11 +146,11 @@ const Home: React.FC = () => {
                 </nav>
 
                 <div className="social-icons">
-                    <a href="https://github.com/Kasprrrr" target="_blank" rel="noopener noreferrer">
+                    <a href="https://github.com/fchincholle" target="_blank" rel="noopener noreferrer">
                         <GitHubIcon fontSize="large" />
                     </a>
                     <a
-                        href="https://www.linkedin.com/in/aleksa-panic-6655ba262/"
+                        href="https://www.linkedin.com/in/franck-chincholle-97583a246/"
                         target="_blank"
                         rel="noopener noreferrer"
                     >
@@ -164,24 +164,16 @@ const Home: React.FC = () => {
                     <KeyboardArrowDownIcon fontSize="large" />
                 </div>
                 <section id="about" className="section about">
-                    <h2>About Me</h2>
+                    <h2>A propos de moi</h2>
                     <p>
-                        I'm a full stack developer passionate about building intuitive, efficient
-                        web applications. My journey in tech has been driven by curiosity and a
-                        desire to create seamless digital experiences. I believe in the power of
-                        combining elegant design with solid engineering.
+                        Actuellement en BTS SIO en alternance, je me spécialise dans l’option SISR .
+                        Passionné par le monde du numérique, je peux développer mes compétences en systèmes et réseaux. 
                     </p>
                     <p>
-                        Although I'm still early in my career, I've had the opportunity to work on
-                        projects that challenged me on both the front-end and back-end. From small
-                        personal initiatives to collaborative team projects, these experiences have
-                        broadened my skill set and deepened my understanding of software
-                        development.
+                        Curieux, rigoureux et toujours motivé à apprendre, j’aime relever de nouveaux défis et travailler sur des projets concrets qui allient technique et créativité.
                     </p>
                     <p>
-                        In my spare time, I embrace competition and always aim to be the best at
-                        what I do. Whether it's gaming or any other challenge, I enjoy testing my
-                        limits and continually pushing for excellence.
+                        En cette fin de BTS SIO, je suis activement à la recherche d’une alternance en cybersécurité pour approfondir mes compétences et continuer mon cursus dans un secteur en constante évolution.
                     </p>
                 </section>
 
