@@ -206,11 +206,9 @@ const Home: React.FC = () => {
 
                 <section id="about" className="section about">
                     <h2>Mon CV</h2>
-                    const App: React.FC = () => (
                         <div className="App">
                         <PdfViewer />
                         </div>
-                        );
                 </section>
 
                 <section id="about" className="section about">
