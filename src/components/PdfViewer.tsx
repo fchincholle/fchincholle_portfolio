@@ -2,10 +2,14 @@ import { useState } from 'react';
 import { Document, Page, pdfjs } from 'react-pdf';
 import 'react-pdf/dist/esm/Page/AnnotationLayer.css';
 
-
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 
-const PdfViewer: React.FC = () => {
+// Définir une interface pour les props
+interface PdfViewerProps {
+  file: string; // Prop pour le chemin du fichier PDF
+}
+
+const PdfViewer: React.FC<PdfViewerProps> = ({ file }) => {
   const [numPages, setNumPages] = useState<number | null>(null);
 
   const onDocumentLoadSuccess = ({ numPages }: { numPages: number }) => {
@@ -15,7 +19,7 @@ const PdfViewer: React.FC = () => {
   return (
     <div style={{ textAlign: 'center', marginTop: '2rem' }}>
       <Document
-        file="/mon-cv.pdf" // Place ton fichier dans "public/mon-cv.pdf"
+        file={file} // Utiliser la prop file ici
         onLoadSuccess={onDocumentLoadSuccess}
       >
         {Array.from(new Array(numPages), (_, index) => (
