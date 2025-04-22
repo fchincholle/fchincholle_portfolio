@@ -52,20 +52,20 @@ const projectCardsData2 = [
 
 const experiencesData = [
     {
-        company: "Tech Innovators Inc.",
-        position: "Senior Full-Stack Developer",
-        date: "Jan 2023 - Present",
+        company: "Mission Micro",
+        position: "Alternant Technicien Informatique",
+        date: "Août 2023 - Present",
         description:
-            "Leading a team to build scalable web applications using React, Node.js, and cloud services.",
-        tech: ["React", "Node.js", "AWS"],
+            "Installation, maintient, dépannage des équipements // Support aux utilisateurs en entreprise.",
+        tech: ["Windows", "Linux", "Support"],
     },
     {
-        company: "Digital Solutions",
-        position: "Software Engineer",
-        date: "May 2020 - Dec 2022",
+        company: "Proman",
+        position: "Intérimaire",
+        date: "Novembre 2022 - Août 2023",
         description:
-            "Developed robust backend services and integrated dynamic front-end solutions using modern JavaScript frameworks.",
-        tech: ["JavaScript", "Express", "Mongolien"],
+            "Reception, mise en rayon et gestion des stocks pour le compte de OCP Répartition",
+        tech: ["Manutention", "Stock", "Travail d'équipe"],
     },
 ];
 
@@ -201,7 +201,16 @@ const Home: React.FC = () => {
                         ))}
                     </div>
                 </section>
-
+                <section id="about" className="section about">
+                    <h2>Entreprise</h2>
+                    <h2 className="tagline">BTS SIO</h2>
+                    <p>
+                        Curieux, rigoureux et toujours motivé à apprendre, j’aime relever de nouveaux défis et travailler sur des projets concrets qui allient technique et créativité.
+                    </p>
+                    <p>
+                        En cette fin de BTS SIO, je suis activement à la recherche d’une alternance en cybersécurité pour approfondir mes compétences et continuer mon cursus dans un secteur en constante évolution.
+                    </p>
+                </section>
                 <section id="projects" className="section experience">
                     <h2>Projects</h2>
                     <div className="project-list">
@@ -255,32 +264,7 @@ const Home: React.FC = () => {
                         ))}
                     </div>
                 </section>
-                <section id="entreprise" className="section experience">
-                    <h2>Projects</h2>
-                    <div className="project-list">
-                        {projectCardsData2.map((project, index) => (
-                            <div key={index} className="experience-item">
-                                <div className="header">
-                                    <h3>{project.title}</h3>
-                                    <a href={project.pdf} target="_blank" rel="noopener noreferrer">Voir le PDF
-                                    </a>
-                                    <span className="date">{project.date}</span>
-                                </div>
-                                <span className="company">{project.subtitle}</span>
-                                <p>{project.description}</p>
-                                {project.tech.length > 0 && (
-                                    <div className="tech-stack">
-                                        {project.tech.map((tech, i) => (
-                                            <span key={i} className="tech">
-                                                {tech}
-                                            </span>
-                                        ))}
-                                    </div>
-                                )}
-                            </div>
-                        ))}
-                    </div>
-                </section>
+                
             </main>
         </div>
     );
