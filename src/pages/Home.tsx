@@ -205,7 +205,23 @@ const Home: React.FC = () => {
                     <h2>Entreprise</h2>
                     <h3>Mission Micro</h3>
                     <p>
-                        Curieux, rigoureux et toujours motivé à apprendre, j’aime relever de nouveaux défis et travailler sur des projets concrets qui allient technique et créativité.
+
+                        Mission Micro est une entreprise basée à Beauzelle, spécialisée dans les services informatiques adaptés aux besoins des entreprises et des particuliers.
+                        Depuis 2005, elle propose des solutions sur mesure en matière de réseaux, systèmes, sécurité informatique et télécoms.
+                        Son équipe polyvalente intervient sur des missions variées telles que l’assistance à maîtrise d’ouvrage, la maintenance, le déploiement de postes et la formation des utilisateurs.
+                        Mission Micro se distingue par sa capacité à accompagner ses clients dans leurs projets informatiques, en assurant un service de proximité et une expertise technique reconnue.​
+                        La collaboration durable entre Mission Micro et Collecte Localisation Satellite se poursuit aujourd’hui, avec pour mission d’assurer un support technique fiable et réactif aux utilisateurs de CLS.
+
+                    </p>
+                    <h3>Collecte Localisation Satellite</h3>
+                    <p>
+
+                        CLS est une entreprise française pionnière dans les solutions d'observation et de surveillance de la Terre depuis 1986.
+                        Filiale du CNES et de la Compagnie Nationale à Portefeuille, CLS déploie des services satellitaires innovants pour comprendre, protéger notre planète et gérer durablement ses ressources.
+                        Basée à Toulouse, elle opère dans plus de 30 pays et emploie environ 1 000 collaborateurs.
+                        Ses domaines d'expertise couvrent la surveillance environnementale, la gestion durable des pêches, la sécurité maritime, la mobilité et les infrastructures énergétiques.
+                        CLS est également l'opérateur exclusif du système Argos, utilisé mondialement pour le suivi d'espèces, de flottes et de données environnementales.
+
                     </p>
                 </section>
                 <section id="projects" className="section experience">
