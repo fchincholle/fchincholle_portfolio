@@ -7,9 +7,9 @@ import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
 const sectionsData = [
     { id: "about", name: "A propos de moi" },
     { id: "experience", name: "Experience" },
+    { id: "entreprise", name: "Entreprise" },
     { id: "projects", name: "Projects" },
     { id: "projects II", name: "Projects II" },
-    { id: "entreprise", name: "Entreprise" },
 ];
 
 const projectCardsData = [
@@ -203,12 +203,9 @@ const Home: React.FC = () => {
                 </section>
                 <section id="about" className="section about">
                     <h2>Entreprise</h2>
-                    <h2 className="tagline">BTS SIO</h2>
+                    <h3>Mission Micro</h3>
                     <p>
                         Curieux, rigoureux et toujours motivé à apprendre, j’aime relever de nouveaux défis et travailler sur des projets concrets qui allient technique et créativité.
-                    </p>
-                    <p>
-                        En cette fin de BTS SIO, je suis activement à la recherche d’une alternance en cybersécurité pour approfondir mes compétences et continuer mon cursus dans un secteur en constante évolution.
                     </p>
                 </section>
                 <section id="projects" className="section experience">
