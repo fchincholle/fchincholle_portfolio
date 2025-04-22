@@ -3,8 +3,6 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 import PublicRouter from "./router/PublicRouter";
 
-//import TopMenu from "./components/nav/TopMenu";
-
 const App: React.FC = () => {
     return (
         <BrowserRouter basename="/fchincholle_BTS">

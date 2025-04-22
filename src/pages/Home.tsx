@@ -3,10 +3,12 @@ import { motion } from "framer-motion";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
+import PdfViewer from './components/PdfViewer';
 
 const sectionsData = [
     { id: "about", name: "A propos de moi" },
     { id: "experience", name: "Experience" },
+    { id: "cv", name: "CV" },
     { id: "entreprise", name: "Entreprise" },
     { id: "projects", name: "Projects" },
     { id: "projects II", name: "Projects II" },
@@ -201,6 +203,16 @@ const Home: React.FC = () => {
                         ))}
                     </div>
                 </section>
+
+                <section id="about" className="section about">
+                    <h2>Mon CV</h2>
+                    const App: React.FC = () => (
+                        <div className="App">
+                        <PdfViewer />
+                        </div>
+                        );
+                </section>
+
                 <section id="about" className="section about">
                     <h2>Entreprise</h2>
                     <h3>Mission Micro</h3>

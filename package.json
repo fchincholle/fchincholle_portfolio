@@ -8,6 +8,8 @@
         "@emotion/styled": "^11.13.0",
         "@mui/icons-material": "^6.0.2",
         "@mui/material": "^6.1.0",
+        "@react-pdf-viewer/core": "^3.12.0",
+        "@react-pdf-viewer/default-layout": "^3.12.0",
         "@ruffle-rs/ruffle": "^0.1.0-nightly.2025.2.2",
         "@types/react": "^18.3.7",
         "@types/react-dom": "^18.3.0",
