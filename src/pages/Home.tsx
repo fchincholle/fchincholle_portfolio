@@ -5,10 +5,9 @@ import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
 import PdfViewer from '../components/PdfViewer';
 import { pdfjs } from 'react-pdf';
+import workerSrc from 'pdfjs-dist/build/pdf.worker.min.js';
 
-pdfjs.GlobalWorkerOptions.workerSrc = new URL(
-    import.meta.url,
-  ).toString();
+pdfjs.GlobalWorkerOptions.workerSrc = workerSrc;
 
 const sectionsData = [
     { id: "about", name: "A propos de moi" },
