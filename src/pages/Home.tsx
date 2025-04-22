@@ -214,7 +214,7 @@ const Home: React.FC = () => {
 
                     </p>
                     <a href="https://www.agencemissionmicro.fr" target="_blank" rel="noopener noreferrer">
-                        <img src="https://32c05b15c2.clvaw-cdnwnd.com/a5f998c5006027b58154b034ba58d825/200000000-d245ad3412/MM_logo1_carte%20de%20visite%20B.jpg?ph=32c05b15c2" alt="Logo MM" style={{ width: '80px', marginTop: '10px' }} />
+                        <img src="https://32c05b15c2.clvaw-cdnwnd.com/a5f998c5006027b58154b034ba58d825/200000000-d245ad3412/MM_logo1_carte%20de%20visite%20B.jpg?ph=32c05b15c2" alt="Logo MM" style={{ width: '60px', marginTop: '5px', marginBottom: '5px' }} />
                     </a>
                     <h3>Collecte Localisation Satellite</h3>
                     <p>
@@ -226,7 +226,7 @@ const Home: React.FC = () => {
                         CLS est également l'opérateur exclusif du système Argos, utilisé mondialement pour le suivi d'espèces, de flottes et de données environnementales.*
                     </p>
                     <a href="https://www.cls.fr" target="_blank" rel="noopener noreferrer">
-                        <img src="https://www.cls.fr/wp-content/uploads/CLS-Logo.png" alt="Logo CLS" style={{ width: '80px', marginTop: '10px' }} />
+                        <img src="https://www.cls.fr/wp-content/uploads/CLS-Logo.png" alt="Logo CLS" style={{ width: '60px', marginTop: '5px' }} />
                     </a>
                 </section>
                 <section id="projects" className="section experience">
