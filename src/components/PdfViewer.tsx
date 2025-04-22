@@ -46,7 +46,7 @@ const PdfViewer: React.FC<PdfViewerProps> = ({ file }) => {
               <Page
                 key={index + 1}
                 pageNumber={index + 1}
-                scale={1.2} // Réduit la taille des pages
+                scale={1.3} // Réduit la taille des pages
                 width={600} // Limite la largeur des pages
                 renderAnnotationLayer={false} // Désactive la couche d'annotations
                 renderTextLayer={false} // Désactive la couche de texte
