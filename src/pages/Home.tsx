@@ -221,7 +221,9 @@ const Home: React.FC = () => {
                         Basée à Toulouse, elle opère dans plus de 30 pays et emploie environ 1 000 collaborateurs.
                         Ses domaines d'expertise couvrent la surveillance environnementale, la gestion durable des pêches, la sécurité maritime, la mobilité et les infrastructures énergétiques.
                         CLS est également l'opérateur exclusif du système Argos, utilisé mondialement pour le suivi d'espèces, de flottes et de données environnementales.
-
+                        <a href="https://www.cls.fr" target="_blank" rel="noopener noreferrer">
+                        <img src="https://www.cls.fr/wp-content/uploads/2021/10/logo-cls-white.svg" alt="Logo CLS" style={{ width: '120px', marginTop: '10px' }} />
+                        </a>
                     </p>
                 </section>
                 <section id="projects" className="section experience">
