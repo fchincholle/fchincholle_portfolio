@@ -16,6 +16,8 @@ const sectionsData = [
     { id: "entreprise", name: "Entreprise" },
     { id: "projects", name: "Projects" },
     { id: "projects II", name: "Projects II" },
+    { id: "synthese", name: "Synthèse" },
+    { id: "veille", name: "Veille Technologique" },
 ];
 
 const projectCardsData = [
@@ -295,7 +297,21 @@ const Home: React.FC = () => {
                         ))}
                     </div>
                 </section>
-                
+
+                <section id="annexe" className="section about">
+                    <h3>Annexe</h3>
+                    <div>
+                        <PdfViewer file={`${process.env.PUBLIC_URL}/Annexe.pdf`} />
+                    </div>
+                </section>
+
+                <section id="veille" className="section about">
+                    <h2>Veille technologique</h2>
+                    <div>
+                        <p>A completer</p>
+                    </div>
+                </section>
+
             </main>
         </div>
     );
