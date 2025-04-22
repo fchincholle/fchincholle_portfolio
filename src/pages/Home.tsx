@@ -207,7 +207,7 @@ const Home: React.FC = () => {
                 <section id="cv" className="section about">
                     <h2>Mon CV</h2>
                     <div>
-                        <PdfViewer file="/Chincholle_Franck_CV.pdf" />
+                        <PdfViewer file="/Franck_Chincholle_CV.pdf" />
                     </div>
                 </section>
 
