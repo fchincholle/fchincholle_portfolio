@@ -306,9 +306,56 @@ const Home: React.FC = () => {
                 </section>
 
                 <section id="veille" className="section about">
-                    <h2>Veille technologique</h2>
-                    <div>
-                        <p>A completer</p>
+                    <h2>Veille Technologique</h2>
+                    <div className="veille-list">
+                        <div style={{ display: 'flex', alignItems: 'center', marginBottom: '20px' }}>
+                            <a href="https://www.th-formations-en-cybersecurite-et-informatique.fr" target="_blank" rel="noopener noreferrer">
+                                <img
+                                src="https://primary.jwwb.nl/public/h/a/i/temp-kgajfdohdkbphashzqbs/image-high.png?enable-io=true&amp;enable=upscale&amp;width=229"
+                                alt="TH Logo"
+                                style={{ width: '100px', height: '60px', marginRight: '15px' }}
+                                />
+                            </a>
+                            <div>
+                                <h4 style={{ margin: 0 }}>TH Formations en cybersécurité</h4>
+                                <p style={{ margin: 0 }}>
+                                    Une plateforme dédiée aux formations en cybersécurité et informatique, ainsi qu'une partie blog avec des articles traitant de l'actualité.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div style={{ display: 'flex', alignItems: 'center', marginBottom: '20px' }}>
+                            <a href="https://x.com" target="_blank" rel="noopener noreferrer">
+                                <img
+                                src="https://img.freepik.com/vecteurs-libre/nouvelle-conception-icone-x-du-logo-twitter-2023_1017-45418.jpg?semt=ais_hybrid&w=740"
+                                alt="X logo"
+                                style={{ width: '60px', height: '60px', marginRight: '15px' }}
+                                />
+                            </a>
+                            <div>
+                                <h4 style={{ margin: 0 }}>X.com</h4>
+                                <p style={{ margin: 0 }}>
+                                    Une plateforme de médias sociaux où les experts et passionnés de cybersécurité partagent des actualités, des analyses et des discussions sur les tendances et menaces actuelles.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div style={{ display: 'flex', alignItems: 'center', marginBottom: '20px' }}>
+                            <a href="https://www.reddit.com" target="_blank" rel="noopener noreferrer">
+                                <img
+                                src="https://yt3.googleusercontent.com/ZBnkDCcneFV2uCrAOIzTCN4ItYEMoq6LFLs36qbJ0q6pPkQh1YVusaIsx5Hqn8n5BpYIhlg1Tg=s900-c-k-c0x00ffffff-no-rj"
+                                alt="X logo"
+                                style={{ width: '60px', height: '60px', marginRight: '15px' }}
+                                />
+                            </a>
+                            <div>
+                                <h4 style={{ margin: 0 }}>Reddit</h4>
+                                <p style={{ margin: 0 }}>
+                                Une communauté en ligne où les utilisateurs partagent et discutent des actualités, des outils et des stratégies en cybersécurité, notamment via des subreddits comme r/cybersecurity.
+                                </p>
+                            </div>
+                        </div>
+
                     </div>
                 </section>
 
