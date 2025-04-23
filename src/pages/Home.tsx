@@ -362,7 +362,7 @@ const Home: React.FC = () => {
                         <div style={{ display: 'flex', alignItems: 'center', marginBottom: '20px' }}>
                             <a href="https://www.youtube.com" target="_blank" rel="noopener noreferrer">
                                 <img
-                                src="https://www.youtube.com/about/static/yt_www_logo.png"
+                                src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.youtube.com%2Fchannel%2FUCDlLfadiQHJuFkJnSBBnQsQ&psig=AOvVaw3aukJwb7QTmhpnWLpLDi0H&ust=1745502160918000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCIjSrrOk7owDFQAAAAAdAAAAABAE"
                                 alt="YT logo"
                                 style={{ width: '100px', height: '100px', marginRight: '15px' }}
                                 />
@@ -380,7 +380,7 @@ const Home: React.FC = () => {
                         <div style={{ display: 'flex', alignItems: 'center', marginBottom: '20px' }}>
                             <a href="https://fr.wikipedia.org" target="_blank" rel="noopener noreferrer">
                                 <img
-                                src="https://upload.wikimedia.org/wikipedia/commons/8/8b/Wikipedia-logo-v2.svg"
+                                src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Wikipedia-logo-v2-square.svg/1200px-Wikipedia-logo-v2-square.svg.png"
                                 alt="Wiki logo"
                                 style={{ width: '100px', height: '100px', marginRight: '15px' }}
                                 />
