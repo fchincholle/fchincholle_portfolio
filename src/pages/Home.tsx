@@ -313,7 +313,7 @@ const Home: React.FC = () => {
                                 <img
                                 src="https://primary.jwwb.nl/public/h/a/i/temp-kgajfdohdkbphashzqbs/image-high.png?enable-io=true&amp;enable=upscale&amp;width=229"
                                 alt="TH Logo"
-                                style={{ width: '100px', height: '60px', marginRight: '15px' }}
+                                style={{ width: '100px', height: '100px', marginRight: '15px' }}
                                 />
                             </a>
                             <div>
@@ -329,7 +329,7 @@ const Home: React.FC = () => {
                                 <img
                                 src="https://img.freepik.com/vecteurs-libre/nouvelle-conception-icone-x-du-logo-twitter-2023_1017-45418.jpg?semt=ais_hybrid&w=740"
                                 alt="X logo"
-                                style={{ width: '60px', height: '60px', marginRight: '15px' }}
+                                style={{ width: '100px', height: '100px', marginRight: '15px' }}
                                 />
                             </a>
                             <div>
@@ -345,13 +345,13 @@ const Home: React.FC = () => {
                                 <img
                                 src="https://yt3.googleusercontent.com/ZBnkDCcneFV2uCrAOIzTCN4ItYEMoq6LFLs36qbJ0q6pPkQh1YVusaIsx5Hqn8n5BpYIhlg1Tg=s900-c-k-c0x00ffffff-no-rj"
                                 alt="X logo"
-                                style={{ width: '60px', height: '60px', marginRight: '15px' }}
+                                style={{ width: '100px', height: '100px', marginRight: '15px' }}
                                 />
                             </a>
                             <div>
                                 <h4 style={{ margin: 0 }}>Reddit</h4>
                                 <p style={{ margin: 0 }}>
-                                Une communauté en ligne où les utilisateurs partagent et discutent des actualités, des outils et des stratégies en cybersécurité, notamment via des subreddits comme r/cybersecurity.
+                                    Une communauté en ligne où les utilisateurs partagent et discutent des actualités, des outils et des stratégies en cybersécurité, notamment via des subreddits comme r/cybersecurity.
                                 </p>
                             </div>
                         </div>
