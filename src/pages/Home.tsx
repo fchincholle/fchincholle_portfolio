@@ -331,7 +331,8 @@ const Home: React.FC = () => {
                                 alt="X logo"
                                 style={{ width: '100px', height: '100px', marginRight: '15px' }}
                                 />
-                            </a>
+                        </a>
+                        <div style={{ width: '2px', height: '80px', backgroundColor: '#b68af5', marginRight: '15px' }}></div>
                             <div>
                                 <h4 style={{ margin: 0 }}>X.com</h4>
                                 <p style={{ margin: 0 }}>
