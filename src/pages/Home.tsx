@@ -316,6 +316,7 @@ const Home: React.FC = () => {
                                 style={{ width: '100px', height: '100px', marginRight: '15px' }}
                                 />
                             </a>
+                            <div style={{ width: '2px', height: '80px', backgroundColor: '#b68af5', marginRight: '15px' }}></div>
                             <div>
                                 <h4 style={{ margin: 0 }}>TH Formations en cybersécurité</h4>
                                 <p style={{ margin: 0 }}>
@@ -331,8 +332,8 @@ const Home: React.FC = () => {
                                 alt="X logo"
                                 style={{ width: '100px', height: '100px', marginRight: '15px' }}
                                 />
-                        </a>
-                        <div style={{ width: '2px', height: '80px', backgroundColor: '#b68af5', marginRight: '15px' }}></div>
+                            </a>
+                            <div style={{ width: '2px', height: '80px', backgroundColor: '#b68af5', marginRight: '15px' }}></div>
                             <div>
                                 <h4 style={{ margin: 0 }}>X.com</h4>
                                 <p style={{ margin: 0 }}>
@@ -345,14 +346,50 @@ const Home: React.FC = () => {
                             <a href="https://www.reddit.com" target="_blank" rel="noopener noreferrer">
                                 <img
                                 src="https://yt3.googleusercontent.com/ZBnkDCcneFV2uCrAOIzTCN4ItYEMoq6LFLs36qbJ0q6pPkQh1YVusaIsx5Hqn8n5BpYIhlg1Tg=s900-c-k-c0x00ffffff-no-rj"
-                                alt="X logo"
+                                alt="Reddit logo"
                                 style={{ width: '100px', height: '100px', marginRight: '15px' }}
                                 />
                             </a>
+                            <div style={{ width: '2px', height: '80px', backgroundColor: '#b68af5', marginRight: '15px' }}></div>
                             <div>
                                 <h4 style={{ margin: 0 }}>Reddit</h4>
                                 <p style={{ margin: 0 }}>
                                     Une communauté en ligne où les utilisateurs partagent et discutent des actualités, des outils et des stratégies en cybersécurité, notamment via des subreddits comme r/cybersecurity.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div style={{ display: 'flex', alignItems: 'center', marginBottom: '20px' }}>
+                            <a href="https://www.youtube.com" target="_blank" rel="noopener noreferrer">
+                                <img
+                                src="https://www.youtube.com/about/static/yt_www_logo.png"
+                                alt="YT logo"
+                                style={{ width: '100px', height: '100px', marginRight: '15px' }}
+                                />
+                            </a>
+                            <div style={{ width: '2px', height: '80px', backgroundColor: '#b68af5', marginRight: '15px' }}></div>
+                            <div>
+                                <h4 style={{ margin: 0 }}>Youtube</h4>
+                                <p style={{ margin: 0 }}>
+                                    Une plateforme vidéo mondiale où les créateurs partagent des tutoriels, conférences et analyses sur la cybersécurité, idéale pour apprendre et suivre les dernières tendances techniques.
+                                    Exemple : @Micode , @Underscore_
+                                </p>
+                            </div>
+                        </div>
+
+                        <div style={{ display: 'flex', alignItems: 'center', marginBottom: '20px' }}>
+                            <a href="https://fr.wikipedia.org" target="_blank" rel="noopener noreferrer">
+                                <img
+                                src="https://upload.wikimedia.org/wikipedia/commons/8/8b/Wikipedia-logo-v2.svg"
+                                alt="Wiki logo"
+                                style={{ width: '100px', height: '100px', marginRight: '15px' }}
+                                />
+                            </a>
+                            <div style={{ width: '2px', height: '80px', backgroundColor: '#b68af5', marginRight: '15px' }}></div>
+                            <div>
+                                <h4 style={{ margin: 0 }}>Wikipedia</h4>
+                                <p style={{ margin: 0 }}>
+                                    Une encyclopédie collaborative en ligne offrant des informations détaillées sur les concepts, outils et événements liés à la cybersécurité, parfaite pour des recherches initiales.
                                 </p>
                             </div>
                         </div>
