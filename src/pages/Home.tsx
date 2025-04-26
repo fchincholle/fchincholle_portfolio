@@ -14,46 +14,46 @@ const sectionsData = [
     { id: "experience", name: "Experience" },
     { id: "cv", name: "CV" },
     { id: "entreprise", name: "Entreprise" },
-    { id: "projects", name: "Projects" },
-    { id: "projects II", name: "Projects II" },
+    { id: "projects", name: "Projets E4" },
+    { id: "projects II", name: "Projets E5" },
     { id: "annexe", name: "Annexe" },
     { id: "veille", name: "Veille Technologique" },
 ];
 
 const projectCardsData = [
     {
-        title: "Flixit",
-        subtitle: "Multimedia Hub",
-        date: "Jan 2025",
-        description: "Watch anime, access its details, play games, and manage your media",
-        tech: ["React", "Nest.js", "PostgreSQL"],
-        pdf: "Test.pdf",
+        title: "Projet",
+        subtitle: "sous-titre",
+        date: "date",
+        description: "Description",
+        tech: ["tech1", "tech2", "tech3", "tech4"],
+        pdf: "zikibi.pdf",
     },
     {
-        title: "R-Type",
-        subtitle: "Coop Space Shooter",
-        date: "Nov 2024",
-        description: "Team up in this multiplayer R-Type remake to stop unyielding alien forces.",
-        tech: ["C++", "Asio", "SFML", "Raylib"],
+        title: "Projet",
+        subtitle: "sous-titre",
+        date: "date",
+        description: "Description",
+        tech: ["tech1", "tech2", "tech3", "tech4"],
         pdf: "zikibi.pdf",
     },
 ];
 
 const projectCardsData2 = [
     {
-        title: "Frenchie SHore",
-        subtitle: "Multimedia Hub",
-        date: "Jan 2025",
-        description: "Watch anime, access its details, play games, and manage your media",
-        tech: ["React", "Nest.js", "PostgreSQL"],
-        pdf: "Test.pdf",
+        title: "Projet",
+        subtitle: "sous-titre",
+        date: "date",
+        description: "Description",
+        tech: ["tech1", "tech2", "tech3", "tech4"],
+        pdf: "zikibi.pdf",
     },
     {
-        title: "R-Type",
-        subtitle: "Coop Space Shooter",
-        date: "Nov 2024",
-        description: "Team up in this multiplayer R-Type remake to stop unyielding alien forces.",
-        tech: ["C++", "Asio", "SFML", "Raylib"],
+        title: "Projet",
+        subtitle: "sous-titre",
+        date: "date",
+        description: "Description",
+        tech: ["tech1", "tech2", "tech3", "tech4"],
         pdf: "zikibi.pdf",
     },
  ];
@@ -245,7 +245,7 @@ const Home: React.FC = () => {
                     </a>
                 </section>
                 <section id="projects" className="section experience">
-                    <h2>Projects</h2>
+                    <h2>Projets E4</h2>
                     <div className="project-list">
                         {projectCardsData.map((project, index) => (
                             <div key={index} className="experience-item">
@@ -272,7 +272,7 @@ const Home: React.FC = () => {
                 </section>
 
                 <section id="projects II" className="section experience">
-                    <h2>Projects</h2>
+                    <h2>Projets E5</h2>
                     <div className="project-list">
                         {projectCardsData2.map((project, index) => (
                             <div key={index} className="experience-item">
