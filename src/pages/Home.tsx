@@ -14,8 +14,8 @@ const sectionsData = [
     { id: "experience", name: "Experience" },
     { id: "cv", name: "CV" },
     { id: "entreprise", name: "Entreprise" },
-    { id: "projects", name: "Projets E4" },
-    { id: "projects II", name: "Projets E5" },
+    { id: "projects", name: "Projets E5" },
+    { id: "projects II", name: "Projets E6" },
     { id: "annexe", name: "Annexe" },
     { id: "veille", name: "Veille Technologique" },
 ];
