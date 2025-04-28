@@ -22,39 +22,39 @@ const sectionsData = [
 
 const projectCardsData = [
     {
-        title: "Projet",
-        subtitle: "sous-titre",
-        date: "date",
-        description: "Description",
-        tech: ["tech1", "tech2", "tech3", "tech4"],
-        pdf: "zikibi.pdf",
+        title: "FOG",
+        subtitle: "BTS SIO",
+        date: "18 Octobre 2024",
+        description: "FOG est une solution open source de clonage et de déploiement d'images systèmes sur des ordinateurs via le réseau.",
+        tech: ["Linux", "Images système", "Clonage", "Déploiement"],
+        pdf: "SIO_E5_Chincholle_FOG.pdf",
     },
     {
-        title: "Projet",
-        subtitle: "sous-titre",
-        date: "date",
-        description: "Description",
-        tech: ["tech1", "tech2", "tech3", "tech4"],
-        pdf: "zikibi.pdf",
+        title: "Zabbix",
+        subtitle: "BTS SIO",
+        date: "16 Avril 2025",
+        description: "Zabbix est une solution de supervision open source pour surveiller la disponibilité, les performances et l'intégrité des réseaux, serveurs et applications.",
+        tech: ["Linux", "Bash", "Supervision", "Monitoring"],
+        pdf: "SIO_E5_Chincholle_Zabbix.pdf",
     },
 ];
 
 const projectCardsData2 = [
     {
-        title: "Projet",
-        subtitle: "sous-titre",
-        date: "date",
-        description: "Description",
-        tech: ["tech1", "tech2", "tech3", "tech4"],
-        pdf: "zikibi.pdf",
+        title: "Active Directory",
+        subtitle: "BTS SIO",
+        date: "14 Février 2025",
+        description: "Active Directory est un service d'annuaire Microsoft qui gère les identités, les permissions et l'authentification des utilisateurs dans un réseau d'entreprise.",
+        tech: ["Windows", "Organisational Unit", "Utilisateur", "Compte"],
+        pdf: "SIO_E6_Chincholle_AD.pdf",
     },
     {
-        title: "Projet",
-        subtitle: "sous-titre",
-        date: "date",
-        description: "Description",
-        tech: ["tech1", "tech2", "tech3", "tech4"],
-        pdf: "zikibi.pdf",
+        title: "Nextcloud",
+        subtitle: "BTS SIO",
+        date: "26 Mars 2024",
+        description: "Nextcloud est une plateforme open-source de stockage et de collaboration, permettant le partage de fichiers, la synchronisation et la gestion de données en ligne.",
+        tech: ["Linux", "Bash", "Stockage", "Synchronisation"],
+        pdf: "SIO_E6_Chincholle_Nextcloud.pdf",
     },
  ];
 
