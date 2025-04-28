@@ -245,7 +245,7 @@ const Home: React.FC = () => {
                     </a>
                 </section>
                 <section id="projects" className="section experience">
-                    <h2>Projets E4</h2>
+                    <h2>Projets E5</h2>
                     <div className="project-list">
                         {projectCardsData.map((project, index) => (
                             <div key={index} className="experience-item">
@@ -272,7 +272,7 @@ const Home: React.FC = () => {
                 </section>
 
                 <section id="projects II" className="section experience">
-                    <h2>Projets E5</h2>
+                    <h2>Projets E6</h2>
                     <div className="project-list">
                         {projectCardsData2.map((project, index) => (
                             <div key={index} className="experience-item">
