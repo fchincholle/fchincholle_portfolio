@@ -5,7 +5,7 @@ import PublicRouter from "./router/PublicRouter";
 
 const App: React.FC = () => {
     return (
-        <BrowserRouter basename="/fchincholle_BTS">
+        <BrowserRouter basename="/fchincholle_portfolio">
             {/*<TopMenu />*/}
             <div>
                 <Routes>
