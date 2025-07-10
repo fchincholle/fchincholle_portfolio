@@ -14,9 +14,8 @@ const sectionsData = [
     { id: "experience", name: "Experience" },
     { id: "cv", name: "CV" },
     { id: "entreprise", name: "Entreprise" },
-    { id: "projects", name: "Projets E5" },
-    { id: "projects II", name: "Projets E6" },
-    { id: "annexe", name: "Annexe" },
+    { id: "projects", name: "projects" },
+    { id: "projects II", name: "projects II" },
     { id: "veille", name: "Veille Technologique" },
 ];
 
@@ -62,7 +61,7 @@ const experiencesData = [
     {
         company: "Mission Micro",
         position: "Alternant Technicien Informatique",
-        date: "Août 2023 - Present",
+        date: "Août 2023 - Août 2025",
         description:
             "Installation, maintient, dépannage des équipements // Support aux utilisateurs en entreprise.",
         tech: ["Windows", "Linux", "Support"],
@@ -174,14 +173,14 @@ const Home: React.FC = () => {
                 <section id="about" className="section about">
                     <h2>A propos de moi</h2>
                     <p>
-                        Actuellement en BTS SIO en alternance, je me spécialise dans l’option SISR .
-                        Passionné par le monde du numérique, je peux développer mes compétences en systèmes et réseaux. 
+                        Originaire de l'Aveyron, je suis depuis toujours passionnés par l'informatique et ces différentes branches.
+                        Portés par mon envie de découvrir un environnement en plein dévellopement ainsi que par mon expérience personnelle je cherche à m'orienter dans la cybersécurité.
                     </p>
                     <p>
                         Curieux, rigoureux et toujours motivé à apprendre, j’aime relever de nouveaux défis et travailler sur des projets concrets qui allient technique et créativité.
                     </p>
                     <p>
-                        En cette fin de BTS SIO, je suis activement à la recherche d’une alternance en cybersécurité pour approfondir mes compétences et continuer mon cursus dans un secteur en constante évolution.
+                         Ayant obtenu mon BTS SIO option SISR en cet été 2025 et accepté à EPITECH Toulouse pour un Master of Science, je suis actuellement à la recherche d'une alternance en cybersécurité pour les 3 ans à venir.
                     </p>
                 </section>
 
@@ -295,13 +294,6 @@ const Home: React.FC = () => {
                                 )}
                             </div>
                         ))}
-                    </div>
-                </section>
-
-                <section id="annexe" className="section about">
-                    <h2>Annexe</h2>
-                    <div>
-                        <PdfViewer file={`${process.env.PUBLIC_URL}/Annexe.pdf`} />
                     </div>
                 </section>
 
