@@ -318,18 +318,18 @@ const Home: React.FC = () => {
                         </div>
 
                         <div style={{ display: 'flex', alignItems: 'center', marginBottom: '20px' }}>
-                            <a href="https://x.com" target="_blank" rel="noopener noreferrer">
+                            <a href="https://www.linkedin.com/groups/4880871/" target="_blank" rel="noopener noreferrer">
                                 <img
-                                src="https://img.freepik.com/vecteurs-libre/nouvelle-conception-icone-x-du-logo-twitter-2023_1017-45418.jpg?semt=ais_hybrid&w=740"
-                                alt="X logo"
+                                src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/LinkedIn_icon.svg/1024px-LinkedIn_icon.svg.png"
+                                alt="Linkedin logo"
                                 style={{ width: '100px', height: '100px', marginRight: '15px' }}
                                 />
                             </a>
                             <div style={{ width: '2px', height: '80px', backgroundColor: '#b68af5', marginRight: '15px' }}></div>
                             <div>
-                                <h4 style={{ margin: 0 }}>X.com</h4>
+                                <h4 style={{ margin: 0 }}>LinkedIn</h4>
                                 <p style={{ margin: 0 }}>
-                                    Une plateforme de médias sociaux où les experts et passionnés de cybersécurité partagent des actualités, des analyses et des discussions sur les tendances et menaces actuelles.
+                                    LinkedIn est une plateforme professionnelle essentielle pour le réseautage et la veille en cybersécurité. Des groupes comme "Sécurité informatique, Cybersécurité & Protection des emails" réunissent des experts partageant actualités, analyses et solutions sur les cybermenaces.
                                 </p>
                             </div>
                         </div>
@@ -370,18 +370,18 @@ const Home: React.FC = () => {
                         </div>
 
                         <div style={{ display: 'flex', alignItems: 'center', marginBottom: '20px' }}>
-                            <a href="https://fr.wikipedia.org" target="_blank" rel="noopener noreferrer">
+                            <a href="https://www.actuia.com" target="_blank" rel="noopener noreferrer">
                                 <img
-                                src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Wikipedia-logo-v2-square.svg/1200px-Wikipedia-logo-v2-square.svg.png"
+                                src="https://media.licdn.com/dms/image/v2/C560BAQFPf4kDosaSSw/company-logo_200_200/company-logo_200_200/0/1631433984114?e=2147483647&v=beta&t=V95dVJ3a0uddluRAnKbVBsBYZUr4_fVypS0vw890Ob8"
                                 alt="Wiki logo"
                                 style={{ width: '100px', height: '100px', marginRight: '15px' }}
                                 />
                             </a>
                             <div style={{ width: '2px', height: '80px', backgroundColor: '#b68af5', marginRight: '15px' }}></div>
                             <div>
-                                <h4 style={{ margin: 0 }}>Wikipedia</h4>
+                                <h4 style={{ margin: 0 }}>Actu IA</h4>
                                 <p style={{ margin: 0 }}>
-                                    Une encyclopédie collaborative en ligne offrant des informations détaillées sur les concepts, outils et événements liés à la cybersécurité, parfaite pour des recherches initiales.
+                                    Actu IA est un site français dédié à l’actualité de l’intelligence artificielle, couvrant innovations, recherches et applications. Il propose des articles, analyses et interviews pour suivre les tendances de l’IA.
                                 </p>
                             </div>
                         </div>
