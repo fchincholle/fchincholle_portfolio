@@ -133,8 +133,8 @@ const Home: React.FC = () => {
             <aside className="left-content">
                 <div className="intro-section">
                     <h1 className="name">Chincholle Franck</h1>
-                    <h2 className="tagline">BTS SIO</h2>
-                    <p className="bio">Alternance technicien support réseaux et informatique</p>
+                    <h2 className="tagline">PREMSC</h2>
+                    <p className="bio">Recherche Alternance Cybersécurité</p>
                 </div>
                 <nav className="side-nav">
                     <ul>
@@ -180,7 +180,7 @@ const Home: React.FC = () => {
                         Curieux, rigoureux et toujours motivé à apprendre, j’aime relever de nouveaux défis et travailler sur des projets concrets qui allient technique et créativité.
                     </p>
                     <p>
-                         Ayant obtenu mon BTS SIO option SISR en cet été 2025 et accepté à EPITECH Toulouse pour un Master of Science, je suis actuellement à la recherche d'une alternance en cybersécurité pour les 3 ans à venir.
+                         Ayant obtenu mon BTS SIO option SISR en cet été 2025 et accepté à EPITECH Toulouse pour un Master of Science, je suis actuellement à la recherche d'une alternance en cybersécurité pour les 3 ans à venir à partir de Janvier 2026.
                     </p>
                 </section>
 
